@@ -6,6 +6,8 @@ source 'https://rubygems.org'
 	gem 'devise'
 	gem 'protected_attributes'
 	gem 'simple_form'
+	gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+
 
 
 	gem 'sass-rails', '~> 4.0.0'

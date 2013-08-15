@@ -6,10 +6,6 @@ class PinsController < ApplicationController
   # GET /pins.json
   def index
     @pins = Pin.all
-
-      respond_to do |format|
-        format.html # index.html.erb
-        format.json {render json @pins }
   end
 end
   # GET /pins/1
@@ -31,7 +27,7 @@ end
   # POST /pins
   # POST /pins.json
   def create
-    @pin = current_user.pins.new(pin_params)
+    @pin = current_user.pins.new(params[:pin])
 
     respond_to do |format|
       if @pin.save
@@ -81,4 +77,4 @@ end
     def pin_params
       params.require(:pin).permit(:description)
     end
-end
+
