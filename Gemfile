@@ -7,6 +7,7 @@ source 'https://rubygems.org'
 	gem 'protected_attributes'
 	gem 'simple_form'
 	gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+	gem 'aws-sdk'
 
 
 
