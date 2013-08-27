@@ -1,11 +1,9 @@
 GIT
   remote: git://github.com/thoughtbot/paperclip.git
-  revision: 455b87e0df49e4ed81deedd9d6e0c7aeb8cee5c5
-  branch: rails-4
+  revision: a12dec104dde656917963ec6328390003595234a
   specs:
-    paperclip (3.4.1)
+    paperclip (3.5.1)
       activemodel (>= 3.0.0)
-      activerecord (>= 3.0.0)
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
