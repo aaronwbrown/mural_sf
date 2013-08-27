@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 	gem 'devise'
 	gem 'protected_attributes'
 	gem 'simple_form'
-	gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+	gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 	gem 'aws-sdk'
 
 
