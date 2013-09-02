@@ -8,6 +8,7 @@ source 'https://rubygems.org'
 	gem 'simple_form'
 	gem "paperclip", "~> 3.0"
 	gem 'aws-sdk'
+	gem 'faker'
 
 
 
