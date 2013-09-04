@@ -1,8 +1,3 @@
-$btnPrimaryBackground: purple;
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
-
-
 @import 'bootstrap';
 
 body {
@@ -53,16 +48,16 @@ body {
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;		
 		display: inline-block; 
-		margin: 5px 2px 15px; 
+		margin: 5px 0 5px; 
 		padding: 15px; 
-		box-shadow: 1px 1px 10px #444;
+		box-shadow: 1px 1px 7.5px #444;
 }
 
 .box img {
 	width: 100%;
 	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
 }
 
 .description {
