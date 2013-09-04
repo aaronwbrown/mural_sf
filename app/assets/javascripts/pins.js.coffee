@@ -4,4 +4,4 @@
 
 jQuery -> 
 	$('#pins').imagesLoaded ->
-		$('pis').isotope itemSelector ".box"
+		$('#pins').masonry itemSelector ".box"

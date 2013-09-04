@@ -17,7 +17,8 @@ body {
 }
 
 .footer {
-		float: bottom;
+		float: left;
+		margin-left: 5px;
 		margin-top: 75px;
 		color: $grayLight;
 		a {
@@ -26,17 +27,17 @@ body {
 
 }
 
-/* Required for jQuery Isotope */
+/* Required for jQuery Masonry */
 
 .box {
-	margin: 5px;
+	margin: 0px;
 	padding: 5px;
 	font-size: 11px;
 	line-height: 1.4em;
 	float: left;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 1px;
 	box-shadow: 1px 1px 10px #444;
 	width: 214px;
 }
