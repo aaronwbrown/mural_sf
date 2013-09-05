@@ -15,4 +15,3 @@
 //= require jquery.masonry.min.js
 //= require bootstrap
 //= require_tree .
-//= require turbolinks

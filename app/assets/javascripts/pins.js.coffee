@@ -4,6 +4,7 @@
 
 jQuery ->
     $('#pins').imagesLoaded ->
+        console.log('Alert I am here')
         $('#pins').masonry itemSelector: ".box"
 
     if $('.pagination').length
