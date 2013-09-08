@@ -11,7 +11,7 @@ source 'https://rubygems.org'
 	gem 'faker'
 	gem 'will_paginate', '~> 3.0'
 	gem 'bootstrap-will_paginate'
-
+	gem 'geocoder'
 
 
 	gem 'sass-rails', '~> 4.0.0'
@@ -27,8 +27,11 @@ group :production do
 end
 group :development, :test do
 	gem 'sqlite3'
+	gem 'nifty-generators'
+	gem 'mocha', :require => 'mocha/api'
 end
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+

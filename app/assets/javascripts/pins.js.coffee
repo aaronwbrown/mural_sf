@@ -3,8 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 jQuery ->
+    console.log('Alert I am here')
     $('#pins').imagesLoaded ->
-        console.log('Alert I am here')
         $('#pins').masonry itemSelector: ".box"
 
     if $('.pagination').length

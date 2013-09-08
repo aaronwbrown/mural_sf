@@ -1,4 +1,5 @@
 MuralSf::Application.routes.draw do
+  resources :locations
   get "users/show"
   
   resources :pins
