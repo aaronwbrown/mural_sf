@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130908041132) do
+ActiveRecord::Schema.define(version: 20130913093443) do
+
+  create_table "characters", force: true do |t|
+    t.string   "name"
+    t.string   "address"
+    t.float    "longitude"
+    t.float    "latitude"
+    t.boolean  "gmaps"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "installs", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -49,6 +59,9 @@ ActiveRecord::Schema.define(version: 20130908041132) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.string   "image_remote_url"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.boolean  "gmaps"
   end
 
   add_index "pins", ["user_id"], name: "index_pins_on_user_id"

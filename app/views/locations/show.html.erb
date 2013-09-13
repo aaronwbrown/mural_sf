@@ -1,4 +1,4 @@
-<% title "Location" %>
+<% "Location" %>
 
 <p>
   <strong>Address:</strong>
@@ -12,6 +12,14 @@
   <strong>Longitude:</strong>
   <%= @location.longitude %>
 </p>
+
+<h3>Nearby locations</h3>
+<ul>
+<% for location in @location.nearbys(10) %>
+	<li><%= link_to location.address, location %> (<%= location.distance.round(2) %> miles)</li>
+	<% end %>
+</ul>
+
 
 <p>
   <%= link_to "Edit", edit_location_path(@location) %> |
