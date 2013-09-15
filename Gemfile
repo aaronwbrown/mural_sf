@@ -12,8 +12,6 @@ source 'https://rubygems.org'
 	gem 'will_paginate', '~> 3.0'
 	gem 'bootstrap-will_paginate'
 	gem 'geocoder'
-	gem 'gmaps4rails'
-
 
 	gem 'sass-rails', '~> 4.0.0'
 	gem 'bootstrap-sass', '~> 2.3.2.1' 

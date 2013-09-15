@@ -1,4 +1,5 @@
 <%= simple_form_for(@pin, html: { class: "form-horizontal"}) do |f| %>
+
   <%= f.error_notification %>
   <%= f.full_error :image_file_size, class: "alert alert-error" %>
   <%= f.full_error :image_content_type, class: "alert alert-error" %>
@@ -7,7 +8,13 @@
   <%= f.input :image_remote_url, label: "or enter a URL" %>
   <%= f.input :description, as: :text, input_html: { rows: "3" } %>
 
+<%= render "locations/show" %>
+
   <div class="form-actions">
     <%= f.button :submit, class: "btn btn-primary" %>
   </div>
 <% end %>
+
+
+
+
